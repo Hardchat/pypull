@@ -4,14 +4,14 @@
 <strong><b>
  Python3
  python3-pip
- scapy
- ipinfo 
+ scapy\n
+ ipinfo\n 
   
 </b></strong>
 # Installation
 <strong><b>
- apt install python3
- apt install python3-pip
- pip3 install scapy
- pip3 install ipinfo
+ apt install python3\n
+ apt install python3-pip\n
+ pip3 install scapy\n
+ pip3 install ipinfo\n
 </b></strong>
