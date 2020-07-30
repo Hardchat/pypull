@@ -8,6 +8,7 @@
  <li>ipinfo</li>
   
 </ul></b></strong>
+
 # Installation
 <strong><b>
  apt install python3
