@@ -11,8 +11,8 @@
 
 # Installation
 <strong><b>
- apt install python3
- apt install python3-pip
- pip3 install scapy
+ apt install python3\
+ apt install python3-pip\
+ pip3 install scapy\
  pip3 install ipinfo
 </b></strong>
