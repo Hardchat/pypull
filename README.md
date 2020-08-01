@@ -6,7 +6,6 @@
  <li>python3-pip</li>
  <li>scapy</li>
  <li>ipinfo</li>
-  
 </ul></b></strong>
 
 # Installation
