@@ -9,7 +9,7 @@
  <li>python3-pip</li>
  <li>scapy</li>
  <li>ipinfo</li>
- <li>Optional: Free ipinfo account to get your acess token  </li>
+ <li>Optional: Free ipinfo account to get your access token  </li>
 </ul></b></strong>
 
 <h1>Installation</h1>
