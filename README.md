@@ -1,5 +1,5 @@
 # PyPull!
-<strong><b>Pcap tool written in Python using Scapy and the ipinfo API module.</b></strong>
+<strong><b>Pcap tool written in Python3 using Scapy and the ipinfo API module.</b></strong>
 # Requirements(Installed by setup.sh) - Tested on Ubuntu LTS 18.04
 <ul><strong><b>
  <li>python3</li>
