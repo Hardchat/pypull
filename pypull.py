@@ -1,6 +1,8 @@
-#!/usr/bin/python3
 from scapy.all import *
 import ipinfo
+
+f = open('filter.txt', 'r')
+filters = f.read()
 
 def print_summary(pkt):
    if IP in pkt:
@@ -15,4 +17,4 @@ def print_summary(pkt):
       strang = ("IP " + str(ip_src) + " " + str(udp_sport) + " " + str(c) + ", " + str(s))
       print(strang)
 
-sniff(filter="ip", prn=print_summary)
+sniff(filter=filters, prn=print_summary)
