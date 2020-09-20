@@ -8,11 +8,12 @@
  <li>python3-pip</li>
  <li>scapy</li>
  <li>ipinfo</li>
+ <li>Optional: Free ipinfo account to get your acess token  </li>
 </ul></b></strong>
 
 <h1>Installation</h1>
 <strong>
- Add your token in <a href="pypull.py#L6">Here</a> 
+ Add your ipinfo access token in <a href="pypull.py#L6">Here</a> 
  
  ```
  git clone https://github.com/Hardchat/pypull
