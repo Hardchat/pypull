@@ -17,6 +17,6 @@
 
 
 # Usage
-<b>You can use any file you want containing <strong><i> proper</i> </strong> bpf syntax with this script!</b>
+<b>You can use any file you want containing <i> proper</i> bpf syntax with this script!</b>
 
 pull filter.txt
