@@ -11,7 +11,7 @@
 
 <h1>Installation</h1>
 <strong><b>
- sh setup.sh
+```sh setup.sh```
 </b></strong>
 
 
