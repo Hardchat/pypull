@@ -5,10 +5,6 @@
 <ul><strong><b>
  <li>root/sudo permissions for scapy</li>
  <li>git (Pre-Requisite)</li>
- <li>python3</li>
- <li>python3-pip</li>
- <li>scapy</li>
- <li>ipinfo</li>
  <li>Optional: Free ipinfo account to get your access token  </li>
 </ul></b></strong>
 
