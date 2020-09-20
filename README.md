@@ -25,3 +25,7 @@
 ```pull filter.txt```
 
 </strong>
+
+<h1>Filtering</h1>
+
+<h3>By default pypull's filter is in "filter.txt" which you can edit to add your desired filters.</h3>
