@@ -1,5 +1,6 @@
 <h1>PyPull!</h1>
-<h2>Pcap tool written in Python3 using Scapy and the ipinfo API module.</h2>
+
+<h2>PyPull is a network listener written in Python3 using Scapy and the ipinfo API module.</h2>
 <h1>Requirements(Installed by setup.sh) - Tested on Ubuntu LTS 18.04</h1>
 <ul><strong><b>
  <li>root/sudo permissions for scapy</li>
