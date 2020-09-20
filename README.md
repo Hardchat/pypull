@@ -19,4 +19,4 @@
 # Usage
 <b>You can use any file you want containing <u><i>proper</i></u> bpf syntax with this script!</b>
 
-<strong>pull filter.txt</strong>
+<h5>pull filter.txt</h5>
