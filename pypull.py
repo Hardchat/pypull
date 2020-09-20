@@ -2,12 +2,19 @@ from scapy.all import *
 import ipinfo, sys
 
 try:
+   
    urfile = sys.argv[1]
+   
    f = open(urfile, 'r')
+   
    filters = f.read()  
+
 except:
+   
    print('Error!\n\nUsage: pull [filter.txt]\n')
+
 else:
+   
    def print_summary(pkt):
       if IP in pkt:
          ip_src=pkt[IP].src
