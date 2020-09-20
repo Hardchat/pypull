@@ -16,7 +16,7 @@
 
 
 
-# Usage
-<b>You can use any file you want containing <u><i>proper</i></u> bpf syntax with this script!</b>
+# Usage 
+<b>You can use any file you want containing <u><em>proper</em></u> bpf syntax with this script!</b>
 
 <h5>pull filter.txt</h5>
