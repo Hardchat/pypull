@@ -12,7 +12,7 @@
 
 <h1>Installation</h1>
 <strong>
- Add your token in ![here] (pypull/pypull.py) 
+ Add your token in <a href="pypull/pypull.py"></a> 
  ```sh setup.sh```
 
 </strong>
