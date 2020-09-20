@@ -12,7 +12,7 @@
 
 <h1>Installation</h1>
 <strong>
- Add your token in <a href="pypull.py">Here</a> 
+ Add your token in <a href="pypull.py#L6">Here</a> 
  
  ```
  git clone https://github.com/Hardchat/pypull
