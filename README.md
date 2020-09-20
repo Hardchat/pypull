@@ -1,6 +1,6 @@
 # PyPull!
 <strong><b>Pcap tool written in Python using Scapy and the ipinfo API module.</b></strong>
-# Requirements - Tested on Ubuntu LTS 18.04
+# Requirements(Installed by setup.sh) - Tested on Ubuntu LTS 18.04
 <ul><strong><b>
  <li>Python3</li>
  <li>python3-pip</li>
@@ -10,8 +10,5 @@
 
 # Installation
 <strong><b>
- apt install python3\
- apt install python3-pip\
- pip3 install scapy\
- pip3 install ipinfo
+ sh setup.sh
 </b></strong>
