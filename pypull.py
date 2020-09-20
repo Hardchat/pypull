@@ -13,7 +13,7 @@ else:
          ip_src=pkt[IP].src
       if UDP in pkt:
          udp_sport=pkt[UDP].sport
-         access_token = 'ipinfo_token'
+         access_token = ''
          handler = ipinfo.getHandler(access_token)
          match = handler.getDetails(ip_src)
          c = match.details.get('city')
