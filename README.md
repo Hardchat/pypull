@@ -13,7 +13,13 @@
 <h1>Installation</h1>
 <strong>
  Add your token in <a href="pypull.py">Here</a> 
- ```sh setup.sh```
+ 
+ ```
+ git clone https://github.com/Hardchat/pypull
+ cd pypull
+ sh setup.sh
+ 
+ ```
 
 </strong>
 
