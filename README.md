@@ -13,3 +13,10 @@
 <strong><b>
  sh setup.sh
 </b></strong>
+
+
+
+# Usage
+<b>You can use any file you want containing <strong> proper </strong> bpf syntax with this script!</b>
+
+pull filter.txt
