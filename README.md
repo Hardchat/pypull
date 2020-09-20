@@ -10,11 +10,17 @@
 </ul></b></strong>
 
 <h1>Installation</h1>
-```sh setup.sh```
+<strong>
+ 
+ ```sh setup.sh```
 
-
+</strong>
 
 <h1>Usage</h1> 
 <b>You can use any file you want containing <u><em>proper</em></u> bpf syntax with this script!</b>
 
+<strong>
+
 ```pull filter.txt```
+
+</strong>
