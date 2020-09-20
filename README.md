@@ -10,9 +10,7 @@
 </ul></b></strong>
 
 <h1>Installation</h1>
-<strong><b>
 ```sh setup.sh```
-</b></strong>
 
 
 
