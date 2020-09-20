@@ -2,7 +2,7 @@ from scapy.all import *
 import ipinfo, sys
 
 try:
-   #ipinfo toekn goes here in  the quotes
+   #ipinfo token goes here in  the quotes
    urtoken = ''
    #filter file supplied in terminal
    urfile = sys.argv[1]
