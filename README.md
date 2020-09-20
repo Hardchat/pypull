@@ -4,7 +4,7 @@
 <h1>Requirements(Installed by setup.sh) - Tested on Ubuntu LTS 18.04</h1>
 <ul><strong><b>
  <li>root/sudo permissions for scapy</li>
- <li>git</li>
+ <li>git (Pre-Requisite)</li>
  <li>python3</li>
  <li>python3-pip</li>
  <li>scapy</li>
