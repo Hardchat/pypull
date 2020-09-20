@@ -2,7 +2,8 @@ from scapy.all import *
 import ipinfo, sys
 
 try:
-   
+   urtoken = ''
+
    urfile = sys.argv[1]
    
    f = open(urfile, 'r')
@@ -20,7 +21,7 @@ else:
          ip_src=pkt[IP].src
       if UDP in pkt:
          udp_sport=pkt[UDP].sport
-         access_token = ''
+         access_token = urtoken
          handler = ipinfo.getHandler(access_token)
          match = handler.getDetails(ip_src)
          c = match.details.get('city')
