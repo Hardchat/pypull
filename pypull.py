@@ -12,7 +12,7 @@ try:
    filters = f.read()  
 
 except:
-   print('Error!\n\nUsage: pull [filter.txt]\n')
+   print('Error, Usage: pull [filter.txt]\n')
 
 else:
    
