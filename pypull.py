@@ -12,7 +12,8 @@ try:
    filters = f.read()  
 
 except:
-   urfilters = os.listdir('filters')
+   muhpath = sys.path[0] + '/filters'
+   urfilters = os.listdir(muhpath)
    print('Error, Usage: pull [filter.txt]\n')
    print('Available Filters Located in [pypyull/filters] are:\n')
    #listing the files within pypull/filters
