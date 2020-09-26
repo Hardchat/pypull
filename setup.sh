@@ -6,3 +6,4 @@ pip3 install ipinfo;
 echo "alias pull='python3 pypull.py'" >> ~/.bashrc
 echo "alias pull='python3 pypull/pypull.py'" >> ~/.bashrc
 alias pull='python3 pypull.py'
+alias pull='python3 pypull/pypull.py'
