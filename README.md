@@ -13,12 +13,12 @@
  Add your ipinfo access token in <a href="pypull.py#L6">Here</a> 
  
  ```
- apt update -y
- apt upgrade -y
- apt install git -y
- git clone https://github.com/Hardchat/pypull
- cd pypull
- sh setup.sh
+ apt update -y;
+ apt upgrade -y;
+ apt install git -y;
+ git clone https://github.com/Hardchat/pypull;
+ cd pypull;
+ sh setup.sh;
  ```
 
 </strong>
