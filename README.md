@@ -32,4 +32,4 @@
 
 <h1>Filtering</h1>
 
-<h3>By default pypull's filter is in <i>pypull/filters</i> which you can edit to add your desired filters, or use a different file for filtering.</h3>
+<h3>By default pypull's filter is in <code>pypull/filters</code> which you can edit to add your desired filters, or use a different file for filtering.</h3>
