@@ -17,7 +17,7 @@ except:
    print('Available Filters Located in [pypyull/filters] are:\n')
    #listing the files within pypull/filters
    for f in urfilters:
-      
+      print(f'[{f}]', end = ' ')
 else:
    
    def print_summary(pkt):
