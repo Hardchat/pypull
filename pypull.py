@@ -18,6 +18,7 @@ except:
    #listing the files within pypull/filters
    for f in urfilters:
       print(f'[{f}]', end = ' ')
+   print('\n')
 else:
    
    def print_summary(pkt):
