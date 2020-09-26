@@ -2,17 +2,16 @@ from scapy.all import *
 import ipinfo, sys
 
 try:
-   #ipinfo token goes here in  the quotes
+   #ipinfo token goes here in the quotes
    urtoken = ''
    #filter file supplied in terminal
-   urfile = os.path.join(sys.path[0], sys.argv[1])
+   urfile = os.path.join(sys.path[0], 'filters/', sys.argv[1])
    
    f = open(urfile, 'r')
    
    filters = f.read()  
 
 except:
-   
    print('Error!\n\nUsage: pull [filter.txt]\n')
 
 else:
