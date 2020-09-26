@@ -12,6 +12,7 @@ try:
    filters = f.read()  
 
 except:
+   urfilters = os.listdir('filters')
    print('Error, Usage: pull [filter.txt]\n')
 
 else:
