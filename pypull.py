@@ -15,7 +15,7 @@ except:
    urfilters = os.listdir('filters')
    print('Error, Usage: pull [filter.txt]\n')
    print('Available Filters Located in [pypyull/filters] are:\n')
-
+   #listing the files within pypull/filters
 else:
    
    def print_summary(pkt):
