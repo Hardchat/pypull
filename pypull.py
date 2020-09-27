@@ -33,7 +33,8 @@ else:
          match = handler.getDetails(ip_src)
          c = match.details.get('city')
          s = match.details.get('region')
-         strang = ('IP ' + str(ip_src) + ' ' + str(udp_sport) + ' ' + str(c) + ', ' + str(s))
+         strang = ('IP ' + str(ip_src) + ' ' + str(udp_sport) + ' (' + str(c) + ', ' + str(s) + ')')
          print(strang)
-
+   print('Started Listening!')
    sniff(filter=filters, prn=print_summary)
+   
