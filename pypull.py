@@ -1,6 +1,8 @@
 from scapy.all import *
 import ipinfo, sys
 
+seen = set()
+
 try:
    #ipinfo token goes below here in the quotes
    urtoken = ''
@@ -26,15 +28,16 @@ else:
    def print_summary(pkt):
       if IP in pkt:
          ip_src=pkt[IP].src
-      if UDP in pkt:
-         udp_sport=pkt[UDP].sport
-         access_token = urtoken
-         handler = ipinfo.getHandler(access_token)
-         match = handler.getDetails(ip_src)
-         c = match.details.get('city')
-         s = match.details.get('region')
-         strang = ('IP ' + str(ip_src) + ' ' + str(udp_sport) + ' (' + str(c) + ', ' + str(s) + ')')
-         print(strang)
+         if UDP in pkt and ip_src not in seen:
+            seen.add(ip_src)
+            udp_sport=pkt[UDP].sport
+            access_token = urtoken
+            handler = ipinfo.getHandler(access_token)
+            match = handler.getDetails(ip_src)
+            c = match.details.get('city')
+            s = match.details.get('region')
+            strang = ('IP ' + str(ip_src) + ' ' + str(udp_sport) + ' (' + str(c) + ', ' + str(s) + ')')
+            print(strang)
    print('Started Listening!')
    sniff(filter=filters, prn=print_summary)
    
