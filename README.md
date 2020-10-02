@@ -20,6 +20,7 @@
  cd pypull;
  sh setup.sh;
  alias pull='python3 pypull.py'
+ alias pull='python3 ~/pypull/pypull.py'
 
  ```
 
