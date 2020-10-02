@@ -19,6 +19,8 @@
  git clone https://github.com/Hardchat/pypull;
  cd pypull;
  sh setup.sh;
+ alias pull='python3 pypull.py'
+
  ```
 
 </strong>
