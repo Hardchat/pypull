@@ -10,7 +10,7 @@
 
 <h1>Installation</h1>
 <strong>
- Add your ipinfo access token in <a href="pypull.py#L6">Here</a> 
+ Add your ipinfo access token in <a href="pypull.py#L8">Here</a> 
  
  ```
  apt update -y;
