@@ -1,1 +1,0 @@
-port not 53 and host not 8.8.8.8

@@ -1,0 +1,1 @@
+host not 8.8.8.8 and not udp and port not 123 and port 443
