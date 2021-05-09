@@ -28,11 +28,11 @@
 <strong>
 
 ```
-pull filter.txt 
+pull example_filter.txt
 ``` 
 <b>Alternatively</b> 
 ```
-python3 pypull.py filter.txt
+python3 pypull.py example_filter.txt
 ```
 </strong>
 
