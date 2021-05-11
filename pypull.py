@@ -18,7 +18,7 @@ try:
     else:
 
         filters = "not icmp and " + f.read()
-except IOError:
+except:
     filter_path = sys.path[0] + '/filters'
     urfilters = os.listdir(filter_path)
     print('Error, Usage: pull [filter.txt]\n')
