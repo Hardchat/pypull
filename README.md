@@ -10,7 +10,7 @@
 
 <h1>Installation</h1>
 <strong>
- Add your ipinfo access token in <a href="pypull.py#L10">Here</a> 
+ Add your ipinfo access token in <a href="pypull.py#L9">Here</a> 
  
  ```
  git clone https://github.com/Hardchat/pypull;
