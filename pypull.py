@@ -14,10 +14,10 @@ try:
 
     if os.stat(urfile).st_size == 0:
 
-        filters = "not icmp"
+        filters = ""
     else:
 
-        filters = "not icmp and " + f.read()
+        filters = "" + f.read()
 except:
     filter_path = sys.path[0] + '/filters'
     urfilters = os.listdir(filter_path)
@@ -35,13 +35,17 @@ else:
             host_src = pkt[IP].src
             if host_src not in seen:
                 seen.add(host_src)
-                host_sport = pkt[IP].sport
                 access_token = urtoken
                 handler = ipinfo.getHandler(access_token)
                 match = handler.getDetails(host_src)
                 city = match.details.get('city')
                 region = match.details.get('region')
-                strang = ('IP ' + str(host_src) + ' ' + str(host_sport) + ' (' + str(city) + ', ' + str(region) + ')')
-                print(strang)
+                if TCP in pkt or UDP in pkt:
+                    host_sport = pkt[IP].sport
+                    strang = ('IP ' + str(host_src) + ' ' + str(host_sport) + ' (' + str(city) + ', ' + str(region) + ')')
+                    print(strang)
+                else:
+                    strang = ('IP ' + str(host_src) + ' (' + str(city) + ', ' + str(region) + ')')
+                    print(strang)
     print('Started Listening!')
     sniff(filter=filters, prn=print_summary)
